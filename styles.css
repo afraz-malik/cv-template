@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+  background-color: red;	
+}
+.web{
+
+  margin: auto;
+
+  width: 800px;
+  height: 100%;
+ min-width: 100px;
+  border: 5px solid #FFFF00;
+
+
+
+}
+.header{
+	width: 100%;
+	border-bottom: 1px solid orange;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+
+	
+}
+
+.header img{
+	height: 70px;
+	width: 70px;
+	vertical-align: middle;
+}
+.headtext{
+	display: inline-block;
+	vertical-align: middle;
+}
+.headtext h1 , h4{
+	display: block;
+	margin : 0;
+	/*font-size: 15px; */
+
+}
+.section{
+	background-color: #fcfcfc;
+}
+.righttext{
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+
+}
+.righttext address{
+	display: block;
+	font-size: 13px;
+	color: black;
+	
+}
+.righttext a{
+	text-decoration: none;
+	color: black;
+}
+
+table{
+	  border-collapse: collapse;
+
+}
+.right{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	/*font-size: 13px;*/
+}
+.left{
+	width: 28%;
+	vertical-align: top;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 15px;
+	color: orange;
+	font-size: 19px;
+}
+.first{
+	border-bottom: 1px solid green;
+
+	border-radius: 20px;
+}
+.title{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Comic Sans MS";
+		
+}
+.right p{
+	margin: 0;
+}
+.year{
+	font-weight: bold;
+	font-size: 15px;
+	font-family:serif;
+}
+.tits{
+	line-height: 0.7;
+
+}
+.text{
+	padding-top: 10px; 
+}

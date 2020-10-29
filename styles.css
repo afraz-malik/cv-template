@@ -5,13 +5,16 @@ body{
 	margin: 0 auto;
   background-color: red;	
 }
+
+
+
+
 .web{
 
   margin: auto;
-
   width: 800px;
   height: 100%;
- min-width: 100px;
+  /*min-width: 100px;*/
   border: 5px solid #FFFF00;
 
 
@@ -46,7 +49,6 @@ body{
 }
 .righttext{
 	display: inline-block;
-	vertical-align: middle;
 	float: right;
 
 }
@@ -62,7 +64,7 @@ body{
 }
 
 table{
-	  border-collapse: collapse;
+	  /*border-collapse: collapse;*/
 
 }
 .right{
@@ -83,8 +85,7 @@ table{
 }
 .first{
 	border-bottom: 1px solid green;
-
-	border-radius: 20px;
+	/*border-radius: 30px;*/
 }
 .title{
 	font-weight: bold;
@@ -100,10 +101,26 @@ table{
 	font-size: 15px;
 	font-family:serif;
 }
-.tits{
+.bc{
 	line-height: 0.7;
 
 }
 .text{
 	padding-top: 10px; 
+}
+
+@media only screen and (max-width: 800px) {
+    .web{
+    margin: auto;
+    height: 50%; 	
+  	width: 500px;
+    }
+   .headtext h1 , h4{
+	font-size: 15px;
+	}
+	.righttext address{
+	font-size: 12px;
+		
+}
+
 }
